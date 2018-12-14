@@ -26,7 +26,6 @@ var letters = [
   "X",
   "Y",
   "Z",
-  "_"
 ];
 
 
@@ -93,7 +92,8 @@ function Letter() {
     document.getElementById("counter").innerHTML = "Total Try(s):" + count;
     document.getElementById("answer").innerHTML = answerArray.join(" ");
   }
-  if (count > 5) {
+  // 10 * tries
+  if (count > 10) {
     document.getElementById("stat").innerHTML = "You LOST!- keep guessing";
   }
 }
