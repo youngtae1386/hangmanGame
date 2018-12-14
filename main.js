@@ -90,7 +90,7 @@ function Letter() {
     //increment the count++
     //display .getElementById("counter").innerHTML = "No Match:" + count; "counter"
     count++;
-    document.getElementById("counter").innerHTML = "No Match(s):" + count;
+    document.getElementById("counter").innerHTML = "Total Try(s):" + count;
     document.getElementById("answer").innerHTML = answerArray.join(" ");
   }
   if (count > 5) {
