@@ -94,6 +94,6 @@ function Letter() {
   }
   // 10 * tries
   if (count > 10) {
-    document.getElementById("stat").innerHTML = "You LOST!- keep guessing";
+    document.getElementById("stat").innerHTML = "Number of guess(s) remaining";
   }
 }
